@@ -125,25 +125,55 @@ footer {
   background: #fff;
   border: 1px solid #ddd;
 }
-
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+.work-section {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: auto;
+  background: #fff;
+  border: 1px solid #ddd;
+}
 
 .work {
+  display: flex;
   position: relative;
   float: left;
   width: 274px;
-  margin: 20px 0 25px;
+  margin: auto;
   overflow: auto;
 }
 
 .work:nth-child(even) {
   margin-right: 40px;
 }
-
-.work img {
+.imageSize {
+  width: 294px;
+  height: 294px;
+  max-height: 294px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+/* .work img {
   width: 100%;
+  height: auto;
   border: 0 none;
   opacity: 0.8;
-}
+} */
 
 .work h3 {
   position: absolute;
