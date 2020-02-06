@@ -5,6 +5,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
+  background-image: url(../imgs/dims.jpg);
 
 }
 
@@ -116,15 +117,7 @@ footer {
   background: #666;
   border-top: 8px solid #4aaaa5;
 }
-.main-section {
-  float: left;
-  width: 100%;
-  max-width: 650px;
-  padding: 30px;
-  margin: 0 0 40px;
-  background: #fff;
-  border: 1px solid #ddd;
-}
+
 .main-section {
   float: left;
   width: 100%;
@@ -238,7 +231,7 @@ h3,
 
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 1400px;
   margin: 0 auto;
   clear: both;
 }
@@ -373,7 +366,7 @@ input[type=submit] {
     text-align: center;
   }
 
-  nav a {
+  nav a{
     width: 30%;
     padding-left: 0;
     margin-left: 0;
