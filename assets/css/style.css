@@ -57,7 +57,7 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #fff;
-  background: #fff;
+  background: black;
   border-bottom: 2px solid #ccc;
 }
 
@@ -69,10 +69,10 @@ h3 {
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #fff;
+  color: rgb(153, 28, 76);
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #141d1c;
 }
 
 nav {
@@ -124,7 +124,7 @@ footer {
   max-width: 650px;
   padding: 30px;
   margin: 0 0 40px;
-  background: #fff;
+  background: black;
   border: 1px solid #ddd;
 }
 .work-section {
@@ -136,7 +136,7 @@ footer {
   max-width: 650px;
   padding: 30px;
   margin: auto;
-  background: #fff;
+  background: black;
   border: 1px solid #ddd;
 }
 
@@ -195,7 +195,7 @@ footer {
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
-  background: #fff;
+  background:black;
   border: 1px solid #ddd;
 }
 
@@ -366,7 +366,7 @@ input[type=submit] {
     text-align: center;
   }
 
-  nav a{
+  nav a {
     width: 30%;
     padding-left: 0;
     margin-left: 0;
